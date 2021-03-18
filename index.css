@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+background-color: rgb(248, 207, 214);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 300px auto;
+    padding: 30px;
+    width: 30vw;
+    height: 20vh;
+    background-color: #fff;
+    border: 1px solid  rgb(187, 184, 184);
+}
+
+.head {
+    text-align: center;
+}
+
+.head h2 {
+    color: rgb(77, 76, 76);
+}
+
+.choice {
+    position: relative;
+    display: flex;
+}
+
+.lists {
+    margin: 50px;
+    padding-left: 20px;
+    width: 500px;
+    height: 40px;
+}
+
+.choice button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    font-size: 25px;
+}
