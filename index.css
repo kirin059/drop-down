@@ -34,7 +34,7 @@ background-color: rgb(248, 207, 214);
 }
 
 .lists {
-    margin: 50px;
+    margin: 30px;
     padding-left: 20px;
     width: 500px;
     height: 40px;
@@ -42,9 +42,21 @@ background-color: rgb(248, 207, 214);
 
 .choice button {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 30px;
+    right: 30px;
     background: transparent;
     border: none;
     font-size: 25px;
+}
+
+.hidden {
+    display: none;
+    width: 500px;
+    max-height: 0;
+}
+
+.show {
+    display: block;
+    max-height: 350px;
+    list-style: none;
 }
