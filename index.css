@@ -55,8 +55,9 @@ background-color: rgb(248, 207, 214);
 }
 
 .dropdown-lists {
+    display: none;
     position: absolute;
-    top: 255px;
+    top: 200px;
     width: 500px;
     margin: 0;
     padding: 0;
@@ -64,20 +65,18 @@ background-color: rgb(248, 207, 214);
     line-height: 25px;
     z-index: 1;
     box-shadow: 0 3px 3px lightslategray;
+    list-style: none;
 }
 
 .dropdown-lists li {
     text-align: left;
 }
 
-.hidden {
-    display: none;
-}
 
 .show {
     display: block;
     max-height: 440px;
-    list-style: none;
+
 }
 
 .dropdown-option {

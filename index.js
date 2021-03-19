@@ -2,7 +2,6 @@
 
 const toggle = document.querySelector(".dropdown-toggle");
 const dropdown = document.querySelector(".dropdown-lists");
-const lists = document.querySelectorAll(".li")
 const options = document.querySelectorAll(".dropdown-option");
 const nextBtn = document.querySelector(".next-btn")
 
@@ -12,7 +11,7 @@ const nextBtn = document.querySelector(".next-btn")
 
 toggle.addEventListener('click', e => {
     //console.log(e)
-    dropdown.classList.toggle('show')
+    dropdown.classList.add('show')
 })
 
 // 클릭한 option이 toggle창 안에 값이 들어오도록
@@ -25,12 +24,12 @@ options.forEach(function (item) {
         //console.log(value)
         toggle.innerHTML = value;
         toggle.classList.add('selected');
-        dropdown.classList.remove('show')
-        nextBtn.removeAttribute('disabled')
+        // dropdown.classList.remove('show')
+        // nextBtn.removeAttribute('disabled')
     })
 });
 
-// toggle.addEventListener('blur', function () {
-//     //console.log(e)
-//     dropdown.classList.remove('show')
-// })
+toggle.addEventListener('blur', function () {
+    //console.log(e)
+    dropdown.classList.remove('show')
+})
