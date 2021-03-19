@@ -1,45 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet" />
-    <script src="index.js" defer></script>
-    <title>drop-down</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="head">
-            <h1> What's your personality type?</h1>
-            <h2>Choose your MBTI type</h2>
-        </div>
+
+    <form action="">
+        <h1>What's your personality type? 🌈</h1>
 
         <div class="dropdown">
-            <button class="dropdown-toggle" />MBTI types below</button>
+            <button type="button" class="dropdown-toggle">
+                Choose your MBTI type
+            </button>
 
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">
+                    <button class=" dropdown-option" value="1">ISTJ </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="2">ISFJ </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="3">INFJ </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="4">INTJ </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="5">ISTP </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="6">ISFP </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="7">INFP </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="8">INTP </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="9">ESTP </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="10">ESFP </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="11">ESFP </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="12">ENTP </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="13">ESTJ </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="14">ESFJ </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="15">ENFJ </button>
+                </li>
+                <li class="dropdown-item">
+                    <button class="dropdown-option" value="16">ENTJ </button>
+                </li>
+            </ul>
         </div>
+        <button type="submit" class="next-button" disabled>다음</button>
+    </form>
 
-        <ul class="dropdown-lists">
-
-            <li> <button class="dropdown-option" value="5">ISTP </button></li>
-            <li> <button class="dropdown-option" value="6">ISFP </button></li>
-            <li> <button class="dropdown-option" value="7">INFP </button></li>
-            <li> <button class="dropdown-option" value="8">INTP </button></li>
-            <li> <button class="dropdown-option" value="9">ESTP </button></li>
-            <li> <button class="dropdown-option" value="10">ESFP </button></li>
-            <li> <button class="dropdown-option" value="11">ESFP </button></li>
-            <li> <button class="dropdown-option" value="12">ENTP </button></li>
-            <li> <button class="dropdown-option" value="13">ESTJ </button></li>
-            <li> <button class="dropdown-option" value="14">ESFJ </button></li>
-            <li> <button class="dropdown-option" value="15">ENFJ </button></li>
-            <li> <button class="dropdown-option" value="16">ENTJ </button></li>
-        </ul>
-
-        <button type="submit" class="next-btn" disabled>NEXT</button>
-    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
