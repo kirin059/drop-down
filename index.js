@@ -11,7 +11,7 @@ const nextBtn = document.querySelector(".next-btn")
 
 toggle.addEventListener('click', e => {
     //console.log(e)
-    dropdown.classList.add('show')
+    dropdown.classList.toggle('show')
 })
 
 // 클릭한 option이 toggle창 안에 값이 들어오도록

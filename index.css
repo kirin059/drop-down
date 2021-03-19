@@ -55,10 +55,11 @@ background-color: rgb(248, 207, 214);
 }
 
 .dropdown-lists {
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 200px;
     width: 500px;
+    height: 30px;
     margin: 0;
     padding: 0;
     background-color: #fff;;
@@ -72,11 +73,9 @@ background-color: rgb(248, 207, 214);
     text-align: left;
 }
 
-
 .show {
     display: block;
     max-height: 440px;
-
 }
 
 .dropdown-option {
